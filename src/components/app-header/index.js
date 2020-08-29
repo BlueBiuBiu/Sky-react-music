@@ -13,7 +13,7 @@ import {
 const ShowSelectItem = (item, index) => {
   if (index < 3) {
     return (
-      <NavLink to={item.link}>{item.title}</NavLink>
+      <NavLink to={item.link} exact>{item.title}</NavLink>
     )
   } else {
     return <a href={item.link}>{item.title}</a>

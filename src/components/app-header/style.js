@@ -28,8 +28,13 @@ export const HeaderWrapper = styled.div`
       .title {
 
         a {
+          display: inline-block;
           color: #ccc;
           text-decoration: none;
+
+          &.active {
+            background: #000;
+          }
         }
 
         &:hover {

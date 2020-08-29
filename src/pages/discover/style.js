@@ -12,7 +12,7 @@ export const DiscoverWrapper = styled.div`
     line-height: 34px;
     text-align: center;
     color: white;
-    margin-left: 190px;
+    margin-left: 185px;
     justify-content: space-between;
 
     .discover-item{
