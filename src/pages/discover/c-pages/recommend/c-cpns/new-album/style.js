@@ -18,6 +18,10 @@ export const NewAlbumWrapper = styled.div`
       width: 15px;
       height: 17px;
       background-position: -260px -75px;
+
+      :hover {
+        cursor: pointer;
+      }
     }
 
     .bottom-right {
@@ -28,6 +32,10 @@ export const NewAlbumWrapper = styled.div`
       width: 15px;
       height: 17px;
       background-position: -300px -75px;
+
+      :hover {
+        cursor: pointer;
+      }
     }
 
     .bottom-item {
